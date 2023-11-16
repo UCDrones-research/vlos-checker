@@ -1,7 +1,7 @@
 {
-  "name": "nodejs-sandbox",
+  "name": "vlos-checker",
   "version": "1.0.0",
-  "description": "",
+  "description": "Estimate the visual line of sight distance of a drone",
   "main": "index.html",
   "scripts": {
     "start": "serve",
@@ -9,20 +9,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codesandbox-app/static-template.git"
+    "url": "git+https://github.com/UCDrones-research/vlos-checker.git"
   },
   "keywords": [],
-  "author": "Ives van Hoorne",
+  "author": "Brandon Stark",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/codesandbox-app/static-template/issues"
+    "url": "https://github.com/UCDrones-research/vlos-checker/issues"
   },
-  "homepage": "https://github.com/codesandbox-app/static-template#readme",
+  "homepage": "https://github.com/UCDrones-research/vlos-checker/#readme",
   "devDependencies": {
     "nodemon": "^3.0.1"
   },
   "dependencies": {
-    "serve": "^11.3.2",
+    "serve": "^13.3.2",
     "xsel": "^1.0.0"
   }
 }
